@@ -1,0 +1,47 @@
+name: rcc-ct
+channels:
+  - defaults
+dependencies:
+  - hdf5=1.10.6=h3ffc7dd_1
+  - ipykernel=5.3.4=py36h5ca1d4c_0
+  - ipython=7.16.1=py36h5ca1d4c_0
+  - ipython_genutils=0.2.0=pyhd3eb1b0_1
+  - ipywidgets=7.6.5=pyhd3eb1b0_1
+  - jupyter=1.0.0=py36_7
+  - jupyter_client=7.1.2=pyhd3eb1b0_0
+  - jupyter_console=6.4.3=pyhd3eb1b0_0
+  - jupyter_core=4.8.1=py36h06a4308_0
+  - jupyterlab_widgets=1.0.0=pyhd3eb1b0_1
+  - nbconvert=5.6.1=py36_0
+  - nbformat=5.1.3=pyhd3eb1b0_0
+  - notebook=6.4.3=py36h06a4308_0
+  - numpy-base=1.19.2=py36hfa32c7d_0
+  - pickleshare=0.7.5=pyhd3eb1b0_1003
+  - pip=21.2.2=py36h06a4308_0
+  - python=3.6.13=h12debd9_1
+  - pip:
+    - antspyx==0.3.2
+    - dicom2nifti==2.4.9
+    - dipy==1.6.0
+    - h5py==3.1.0
+    - imageio==2.15.0
+    - importlib-resources==5.4.0
+    - itk==5.2.1.post1
+    - itk-core==5.2.1.post1
+    - itk-filtering==5.2.1.post1
+    - itk-io==5.2.1.post1
+    - itk-numerics==5.2.1.post1
+    - itk-registration==5.2.1.post1
+    - itk-segmentation==5.2.1.post1
+    - matplotlib==3.3.4
+    - nibabel==3.2.2
+    - numpy==1.19.5
+    - pandas==1.1.5
+    - pillow==8.4.0
+    - plotly==5.8.0
+    - pydicom==2.3.1
+    - scikit-image==0.17.2
+    - scikit-learn==0.24.2
+    - scipy==1.5.4
+    - seaborn==0.11.2
+    - tqdm==4.64.1
