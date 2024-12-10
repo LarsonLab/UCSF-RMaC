@@ -1,7 +1,6 @@
 # UCSF RMaC: UCSF Renal Mass CT Dataset
 
-![Logo]("logo.png")
-
+![Logo](logo.png)
 
 Scripts are numbered 01-07 to indicate each step of curation process
 
