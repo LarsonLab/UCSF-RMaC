@@ -1,4 +1,7 @@
-# Data Curation Pipeline for 3D Multiphase Renal Lesion/RCC CT Dataset
+# UCSF RMaC: UCSF Renal Mass CT Dataset
+
+![Logo]("logo.png")
+
 
 Scripts are numbered 01-07 to indicate each step of curation process
 
