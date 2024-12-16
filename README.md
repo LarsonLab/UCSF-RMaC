@@ -4,15 +4,15 @@
 
 This dataset provides a set of 831 3D Multiphase CT exams of renal masses from UCSF. Each exam includes an annotation of renal mass in the form of bounding boxes or polygon masks, and the pathology results from each renal mass that were obtained after surgery that serve as the ground-truth outcome.  The purpose of this dataset is to support development of new algorithms to better distinguish aggressive from indolent disease based on non-invasive imaging.
 
-The CT volumes were acquired at UCSF between 2002-2018 and only renal masses less than or equal to 7cm (T1 stage) were included. Each exam has an unenhanced CT volume and up to three contrast enhanced CT phases (arterial / corticomedullary, portovenous / nephrographic, delayed/excretory). For each exam, the contrast enhanced CT volumes are registered to the unenhanced volume. For a minority of the exams, registration was unsuccessful, but these exams are still included for further investigation.
+The CT volumes were acquired at UCSF between 2002-2018 and only renal masses less than or equal to 7cm (T1 stage) were included. Each exam has an unenhanced CT volume and up to three contrast enhanced CT phases (arterial/corticomedullary, portal venous/nephrogenic, delayed/excretory). For each exam, the contrast enhanced CT volumes are registered to the unenhanced volume. For a minority of the exams, registration was unsuccessful, but these exams are still included for further investigation.
 
 ## Data Access (In Progress)
 
 The dataset is hosted on AWS S3. It can be found at the following URIs:
 
-The dataset can be downloaded through the following URLs:
+The dataset can be downloaded directly by clickling on the following URLs:
 
-Alternatively, the dataset can be downloaded via the AWS CLI.
+Alternatively, the dataset can be downloaded via the AWS CLI:
 
 1. Install [AWS CLI]("https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html").
 2. Copy using the S3 URI
@@ -26,9 +26,12 @@ aws s3 cp <URI>
 All CT imaging data and associated metadata are organized in HDF5 container files named by patient ID (a 10 digit random alphanumeric code). A csv file is included as a key describing which phases are available for each subject and the registration status for each CT volume.
 
 Within phase_reg_key.csv:
+
 - 0 = no volume
 - 1 = volume exists but is not registered to the unenhanced (noncon) volume
 - 2 = volume exists and is registered to the unenhanced (noncon) volume
+
+The file structure:
 
 ```sh
 .
