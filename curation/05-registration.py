@@ -10,7 +10,7 @@ from dipy.align.imaffine import AffineMap
 import nibabel as nib
 import os
 import matplotlib.pyplot as plt
-from utils import view_registration, view_registration_with_mask, find_midz, get_phase, get_mask_fname
+from curation.utils import view_registration, view_registration_with_mask, find_midz, get_phase, get_mask_fname
 from tqdm import tqdm
 
 # %%

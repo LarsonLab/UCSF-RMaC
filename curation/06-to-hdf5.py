@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 import h5py
 import pickle
-from utils import get_best_mask
+from curation.utils import get_best_mask
 
 # load in saved pids list and dataframe
 with open('./pids_reg_label_07172024.txt', 'rb') as f:
