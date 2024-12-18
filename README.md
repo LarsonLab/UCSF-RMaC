@@ -69,6 +69,13 @@ with h5py.File("Zz99Ji2swU.hdf5", "r") as hdf:
     print(f"HDF5 file containers: {list(hdf.keys())}")
     print(f"HDF5 file attributes: {list(hdf.attrs.keys())}")
     noncon = hdf["noncon"]
+    print(f"Shape of noncon volume: {noncon.shape}")
+```
+
+```sh
+HDF5 file containers: ['arterial', 'delay', 'mask', 'noncon', 'portven']
+HDF5 file attributes: ['Manufacturer', 'PID', 'Patient Age', 'Patient Sex', 'arterial_pixdim', 'delay_pixdim', 'mask_pixdim', 'noncon_pixdim', 'pathology', 'pathology_grade', 'portven_pixdim', 'tumor_type']
+Shape of noncon volume: (512, 512, 49)
 ```
 
 ## Tutorials (In Progress)
