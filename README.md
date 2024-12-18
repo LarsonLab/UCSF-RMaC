@@ -68,9 +68,10 @@ import h5py
 with h5py.File("Zz99Ji2swU.hdf5", "r") as hdf:
     print(f"HDF5 file containers: {list(hdf.keys())}")
     print(f"HDF5 file attributes: {list(hdf.attrs.keys())}")
-    noncon = hdf["noncon"]
+    noncon = hdf["noncon"][:]
     print(f"Shape of noncon volume: {noncon.shape}")
 ```
+Output:
 
 ```sh
 HDF5 file containers: ['arterial', 'delay', 'mask', 'noncon', 'portven']
