@@ -66,12 +66,27 @@ The HDF5 files can be read in Python using the [H5py package](https://docs.h5py.
 ```python
 import h5py
 with h5py.File("Zz99Ji2swU.hdf5", "r") as hdf:
-    print(f"HDF5 file containers: {list(hdf.keys())}")
+    print(f"HDF5 file datasets: {list(hdf.keys())}")
     print(f"HDF5 file attributes: {list(hdf.attrs.keys())}")
-    noncon = hdf["noncon"]
+    noncon = hdf["noncon"][:]
+    print(f"Shape of noncon volume: {noncon.shape}")
 ```
 
-## Tutorials (In Progress)
+Output:
+
+```sh
+HDF5 file datasets: ['arterial', 'delay', 'mask', 'noncon', 'portven']
+HDF5 file attributes: ['Manufacturer', 'PID', 'Patient Age', 'Patient Sex', 'arterial_pixdim', 'delay_pixdim', 'mask_pixdim', 'noncon_pixdim', 'pathology', 'pathology_grade', 'portven_pixdim', 'tumor_type']
+Shape of noncon volume: (512, 512, 49)
+```
+
+## Tutorials
+
+- [Label Exploration](tutorials/labelexploration.ipynb)
+  - Explore the pathology labels across all the datasets and plot distributions
+
+- [Tumor Mask Overlays](tutorials/maskoverlays.ipynb)
+  - Visualize slices of the CT volumes and overlay tumor mask on
 
 ## Data Curation
 
