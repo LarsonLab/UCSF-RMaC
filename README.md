@@ -99,6 +99,9 @@ A sample conda environment can be found in `environment.yml`
 ## Contributors
 
 Project initiation and leadership - Peder Larson, PhD, and Zhen Jane Wang, MD
+
 Dataset Extraction - Sage Kramer, MD
+
 Curation - Sage Kramer, MD, Sule Sahin, PhD, Samantha Jones, Ernesto Diaz
+
 Data Management - Ernesto Diaz, Sule Sahin, PhD, Qing Dai
