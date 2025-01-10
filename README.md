@@ -104,4 +104,4 @@ Dataset Extraction - Sage Kramer, MD
 
 Curation - Sage Kramer, MD, Sule Sahin, PhD, Samantha Jones, Ernesto Diaz
 
-Data Management - Ernesto Diaz, Sule Sahin, PhD, Qing Dai
+Data Management - Sule Sahin, PhD, Abhejit Rajagopal, PhD, Ernesto Diaz, Qing Dai
