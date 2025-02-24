@@ -10,7 +10,10 @@ The CT volumes were acquired at UCSF between 2002-2018 and only renal masses les
 
 The dataset is hosted on AWS S3. It can be found at the following URIs:
 
+
 The dataset can be downloaded directly by clickling on the following URLs:
+
+https://imagingdatasets.ucsf.edu/dataset/3
 
 Alternatively, the dataset can be downloaded via the AWS CLI:
 
