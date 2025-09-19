@@ -6,6 +6,14 @@ This dataset provides a set of 831 3D Multiphase CT exams of renal masses from U
 
 The CT volumes were acquired at UCSF between 2002-2018 and only renal masses less than or equal to 7cm (T1 stage) were included. Each exam has an unenhanced CT volume and up to three contrast enhanced CT phases (arterial/corticomedullary, portal venous/nephrogenic, delayed/excretory). For each exam, the contrast enhanced CT volumes are registered to the unenhanced volume. For a minority of the exams, registration was unsuccessful, but these exams are still included for further investigation.
 
+## Citation
+
+```
+Sahin SI. Quantification and Deep Learning Applications: Metabolite-Specific Hyperpolarized 13C-Pyruvate MRI and Multiphase CT in Renal Cell Carcinomas.
+Order No. 31489175 ed. University of California, San Francisco; 2024.
+https://www.proquest.com/dissertations-theses/quantification-deep-learning-applications/docview/3102832760/se-2
+```
+
 ## Data Access (In Progress)
 
 The dataset is hosted on AWS S3. It can be found at the following URIs:
