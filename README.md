@@ -23,13 +23,15 @@ The dataset can be downloaded directly by clickling on the following URLs:
 
 https://imagingdatasets.ucsf.edu/dataset/3
 
+https://registry.opendata.aws/ucsf-rmac/
+
 Alternatively, the dataset can be downloaded via the AWS CLI:
 
 1. Install [AWS CLI]("https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html").
 2. Copy using the S3 URI
 
 ```sh
-aws s3 cp <URI>
+aws s3 ls --no-sign-request s3://ucsf-rmac-dataset/
 ```
 
 ## File Structure of Dataset
