@@ -6,7 +6,15 @@ This dataset provides a set of 831 3D Multiphase CT exams of renal masses from U
 
 The CT volumes were acquired at UCSF between 2002-2018 and only renal masses less than or equal to 7cm (T1 stage) were included. Each exam has an unenhanced CT volume and up to three contrast enhanced CT phases (arterial/corticomedullary, portal venous/nephrogenic, delayed/excretory). For each exam, the contrast enhanced CT volumes are registered to the unenhanced volume. For a minority of the exams, registration was unsuccessful, but these exams are still included for further investigation.
 
-## Citation
+## Citations
+
+
+```
+Larson, P., Wang, Z. J., Sahin, S., Diaz, E., Rajagopal, A., Abtahi, M., Jones, S., Dai, Q., Kramer, S.
+UCSF RMaC: UCSF Renal Mass CT Dataset.
+UCSF Center for Intelligent Imaging (Ci2) Datasets for Medical Imaging.
+https://imagingdatasets.ucsf.edu/dataset/3.  doi: 10.58078/C2WC74 (2025).
+```
 
 ```
 Sahin SI. Quantification and Deep Learning Applications: Metabolite-Specific Hyperpolarized 13C-Pyruvate MRI and Multiphase CT in Renal Cell Carcinomas.
@@ -115,6 +123,6 @@ Project initiation and leadership - Peder Larson, PhD, and Zhen Jane Wang, MD
 
 Dataset Extraction - Sage Kramer, MD
 
-Curation - Sage Kramer, MD, Sule Sahin, PhD, Samantha Jones, Ernesto Diaz
+Curation - Sage Kramer, MD, Sule Sahin, PhD, Abhejit Rajagopal, PhD, Mansour Abtahi, PhD, Samantha Jones, Ernesto Diaz
 
 Data Management - Sule Sahin, PhD, Abhejit Rajagopal, PhD, Ernesto Diaz, Qing Dai
