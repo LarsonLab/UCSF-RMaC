@@ -22,7 +22,7 @@ Order No. 31489175 ed. University of California, San Francisco; 2024.
 https://www.proquest.com/dissertations-theses/quantification-deep-learning-applications/docview/3102832760/se-2
 ```
 
-## Data Access (In Progress)
+## Data Access
 
 The dataset is hosted on AWS S3. It can be found at the following URIs:
 
